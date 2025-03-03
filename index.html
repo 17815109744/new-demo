@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录界面</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- 标题 -->
+<div class="header">
+  <div class="top-left-title">
+    <img src="assets/images/logo.png" alt="Top Left Logo" class="top-left-logo">
+    <span>重庆三峡职业学院</span>
+  </div>
+  <h1>屏风山村民旅污泥整治现况及整治升改建设实施方案</h1>
+</div>
+
+<!-- 登录框 -->
+<div class="login-container">
+  <div class="login-box">
+    <h2>
+      <img src="assets/images/logo.png" alt="Login Logo" class="login-logo">
+      重庆三峡职业学院
+    </h2>
+    <h3>用户登录</h3>
+    <form id="login-form">
+      <div class="input-group">
+        <label for="username">账号</label>
+        <input type="text" id="username" placeholder="请输入账号" required>
+      </div>
+      <div class="input-group">
+        <label for="password">密码</label>
+        <input type="password" id="password" placeholder="请输入密码" required>
+      </div>
+      <button type="submit" class="login-btn">登录</button>
+    </form>
+    <div class="extra-links">
+      <a href="dashboard.html#case-intro" class="link-btn guest-btn">游客登录</a>
+      <a href="#" class="link-btn expert-btn">专家登录</a>
+    </div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
